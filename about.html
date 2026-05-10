@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Srinivasa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Srinivasa<span>.</span></a>
+        <button class="hamburger"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-container" style="padding-top: 8rem;">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Hello! I'm Srinivasa, a passionate professional dedicated to delivering high-quality results. With a strong foundation in modern technologies and a keen eye for design, I strive to create solutions that are not only functional but visually compelling.</p>
+                
+                <p>My journey has been fueled by a continuous desire to learn and adapt to new challenges. I believe in writing clean code, designing intuitive interfaces, and building robust systems.</p>
+                
+                <div class="skills-container">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Project Management</span>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <a href="resume.jpeg" class="btn btn-outline view-btn" data-src="resume.jpeg">View Resume</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container" style="width: 100%; max-width: 400px; margin: auto;">
+                <img src="photo.jpeg" alt="Srinivasa" class="hero-image" style="border-radius: 20px; animation: none;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for viewing Resume -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

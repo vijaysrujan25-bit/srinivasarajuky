@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications - Srinivasa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Srinivasa<span>.</span></a>
+        <button class="hamburger"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="certifications.html" class="active">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-container" style="padding-top: 8rem;">
+        <h2 class="section-title">My Certifications</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem;">(Certificates will be added here later)</p>
+        
+        <div class="grid-container">
+            <!-- Certificate Placeholder -->
+            <div class="card">
+                <div class="card-img-placeholder" style="background: var(--surface-color-light);">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Sample Certification</h3>
+                    <p class="card-desc">Issued by: Issuing Organization</p>
+                    <!-- Example view button, when you add real certificate images -->
+                    <!-- <button class="btn btn-outline view-btn" data-src="certificate1.jpg" style="width: 100%; margin-top: 1rem;">View Certificate</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for viewing certificates -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
